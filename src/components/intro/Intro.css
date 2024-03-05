@@ -1,0 +1,71 @@
+.wrapper{
+    background-color: #ffE9D4;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+}
+
+.text{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    margin-right: 140px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.up{
+    line-height: 64px;
+    font-size: 24px;
+}
+
+.unlock {
+  font-family: "Orbitron", sans-serif;
+  font-size: 86px;
+  line-height: 64px;
+  font-weight: 600;
+  color: #A33F18;
+  margin-top: 20px;
+  text-wrap: wrap;
+}
+
+.experience{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.drone{
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+}
+
+.register{
+    color: #ffff;
+    background-color: #A33F18;
+    border-color: #A33F18;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.register:hover{
+    color: #A33F18;
+    background-color: #ffff;
+    border-color: #ffff;
+}
+
+.button{
+    cursor: pointer;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+img {
+	overflow: clip;
+    height: 50px;
+    width: 50px;
+}
+
+.we {
+	font-family: "SF Pro Display", sans-serif;
+	font-size: 18px;
+	margin-top: 14px;
+	font-weight: 700;
+	margin-right: 4px;
+	line-height: 28.8px;
+	white-space: nowrap;
+}
+
+.top {
+	color: #286bd2;
+	font-family: "SF Pro Display", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 14px;
+	margin-right: 100px;
+	line-height: 28.8px;
+	white-space: nowrap;
+}
+
+.banner {
+	background-color: #ffffff;
+	gap: 100px;
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 2px;
+	margin-top: 8px;
+	place-content: normal space-between;
+}
+
+.banner div {
+	display: flex;
+	flex-direction: row;
+    vertical-align: middle;
+}
+
+
